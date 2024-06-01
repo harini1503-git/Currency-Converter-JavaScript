@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp2300486.jpg");
+    background-size: cover;
+}
+.container{
+    background-image: url("https://th.bing.com/th/id/OIP.XnU_iqiTgtAaSblcEnjy5QHaE8?pid=ImgDet&w=474&h=316&rs=1");
+    background-size: cover;
+    padding: 40px;
+    min-height: 350px;
+    border-radius: 15px;
+    min-width: 200px;
+}
+h1{
+    color: whitesmoke;
+}
+form, select, input, button{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+input{
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    font-size: 1 rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+img{
+    max-width: 2rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin-top: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+select{
+    font-size: 1rem;
+}
+#msg{
+    margin: 2rem 0 2rem 0;
+    font-size: 20px;
+}
+button{
+    height: 35px;
+    background-color: blueviolet;
+    color: blanchedalmond;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
